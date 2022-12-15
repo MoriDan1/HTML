@@ -8,16 +8,17 @@
 
 </head>
 <body>
+  <form action="http://localhost/connect.php" method="post">
   <div class="box">
     <div class="form">
       <h2>Sign in</h2>
       <div class="inputBox">
-        <input type="text" required="" required="">
+        <input type="text" required="" name = "username" required>
         <span>Username</span>
         <i></i>
       </div>
       <div class="inputBox">
-        <input type="password" required="" required="">
+        <input type="password" name="password"  required>
         <span>Password</span>
         <i></i>
       </div>
@@ -28,8 +29,9 @@
       <input type="submit" value="Login">
     </div>
   </div>
+  </form>
 
-   <script> /* js code */ </script>
+   <script src = "scripts.js"> </script>
 
 </body>
 </html>
